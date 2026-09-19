@@ -1,0 +1,30 @@
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Node/Frontend
+node_modules/
+dist/
+build/
+.vite/
+
+# Local data & generated files
+backend/chroma_db/
+**/chroma_db/
+*.sqlite3
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
